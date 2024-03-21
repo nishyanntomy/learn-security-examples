@@ -1,1 +1,17 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+Spoofing involves falsifying one's identity or information to gain unauthorized access to a 
+system or data. For example, email spoofing involves forging the sender's email address to deceive 
+the recipient into believing the message is from a trusted source. This vulnerability undermines 
+system integrity and confidentiality as it enables unauthorized individuals to impersonate 
+legitimate users or entities. Implementing secure authentication mechanisms, such as two-factor 
+authentication or digital signatures, can prevent spoofing by verifying the identity of users or data sources. 
+These measures bolster system security by ensuring that only authenticated entities can access 
+sensitive information or resources. Spoofing primarily violates the Confidentiality and Integrity aspects 
+of the CIA (Confidentiality, Integrity, Availability) triad, as it can lead to unauthorized access 
+and tampering with data.
+
+
+
+
+

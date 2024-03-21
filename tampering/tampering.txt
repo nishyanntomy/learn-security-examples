@@ -1,0 +1,9 @@
+
+Tampering involves unauthorized alteration or modification of data, code, or communication. 
+For instance, an attacker might intercept and modify data packets in transit to change their contents. 
+This vulnerability undermines data integrity and system trustworthiness, as it allows attackers to 
+manipulate information, leading to erroneous decisions or actions. Implementing secure communication 
+protocols, such as Transport Layer Security (TLS) or digital signatures, can prevent tampering by 
+encrypting data and verifying its authenticity throughout transmission. These measures ensure that data 
+remains unchanged and unaltered by unauthorized parties. Tampering primarily violates the Integrity aspect 
+of the CIA (Confidentiality, Integrity, Availability) triad, as it compromises the accuracy and reliability of data.
