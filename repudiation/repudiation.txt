@@ -1,2 +1,30 @@
 - Briefly explain the vulnerability and why the secure version is better at preventing repudiation than the insecure version.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+
+Repudiation vulnerability occurs when a user denies performing a specific action or transaction, 
+leading to disputes or legal issues. Insecure systems may lack proper logging and auditing mechanisms, 
+making it difficult to trace and prove user actions accurately, thus enabling users to repudiate their actions.
+
+Secure Version Prevention:
+The secure version of the system incorporates robust logging and auditing mechanisms, ensuring that 
+all user actions are logged and attributed to the respective users. By maintaining comprehensive logs 
+of user activities, the system can provide irrefutable evidence of user actions, preventing users from 
+repudiating their actions easily.
+
+Additional Security Mechanisms:
+To enhance prevention against repudiation attacks, additional security mechanisms such as digital 
+signatures, transaction receipts, and blockchain technology can be incorporated. Digital signatures can 
+be used to verify the authenticity and integrity of transactions, making it harder for users to deny their 
+involvement. Transaction receipts provide users with evidence of their actions, reducing the likelihood of 
+repudiation. Blockchain technology offers immutable and transparent transaction records, making it practically 
+impossible for users to repudiate their actions once recorded on the blockchain. Additionally, implementing 
+multi-factor authentication (MFA) and enforcing strong password policies can help ensure that user identities 
+are accurately verified, further reducing the risk of repudiation. Regular security audits and monitoring 
+can also help detect and respond to any repudiation attempts promptly.
+
+
+
+
+
+

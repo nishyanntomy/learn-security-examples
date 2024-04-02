@@ -1,2 +1,18 @@
 - Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+A DoS vulnerability occurs when attackers flood a system with excessive requests, overwhelming 
+its resources and causing it to become unresponsive. This disrupts the availability of the system 
+for legitimate users, potentially leading to downtime and service degradation.
+
+Prevention by Secure Version:
+The secure version prevents DoS vulnerabilities by implementing measures like rate limiting, 
+load balancing, and robust error handling. These techniques help distribute incoming traffic evenly, 
+handle spikes in requests gracefully, and prevent system overload, thereby maintaining availability.
+
+Additional Security Mechanisms:
+To further prevent DoS attacks, additional measures include deploying DDoS protection services, 
+implementing Web Application Firewalls (WAF), using Intrusion Detection/Prevention Systems (IDS/IPS), 
+ensuring scalable infrastructure, and conducting regular security assessments. These mechanisms 
+collectively enhance the system's resilience against DoS attacks by detecting, mitigating, and adapting 
+to evolving threats efficiently.

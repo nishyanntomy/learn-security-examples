@@ -1,0 +1,19 @@
+Privilege escalation vulnerability occurs when a user gains higher access privileges than intended. 
+This could happen due to inadequate access controls or insecure configurations, allowing malicious 
+actors to exploit vulnerabilities and elevate their privileges within the system.
+
+Secure Version Prevention:
+Implementing proper access controls and least privilege principles can prevent privilege escalation 
+vulnerabilities. By ensuring that users only have access to the resources and functionalities they are 
+authorized to use, the likelihood of unauthorized privilege escalation is minimized. Additionally, 
+regularly updating and patching software to fix known vulnerabilities can also help prevent exploitation.
+
+Additional Security Mechanisms:
+To further prevent privilege escalation attacks, additional security mechanisms such as role-based 
+access control (RBAC), privilege separation, and principle of least privilege can be incorporated. 
+RBAC allows administrators to assign specific roles to users, limiting their access based on their 
+responsibilities. Privilege separation involves splitting processes into smaller components with 
+distinct privileges, reducing the potential impact of a compromised component. Principle of least 
+privilege dictates that users should only have the minimum level of access required to perform their tasks, 
+reducing the attack surface and limiting the potential damage of a successful attack. Regular security 
+audits and monitoring can also help detect and respond to any unauthorized privilege escalation attempts promptly.
