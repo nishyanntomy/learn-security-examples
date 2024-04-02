@@ -1,3 +1,29 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 Which CIA property does tampering violate?
 What additional security mechanisms can you incorporate?
+
+
+Information disclosure occurs when sensitive data is exposed to unauthorized parties. This can happen 
+due to inadequate security measures such as improper error handling or insecure configurations. 
+For instance, exposing sensitive cookies without SSL encryption or constructing SQL queries 
+without proper sanitization can lead to information disclosure.
+
+Secure Version Prevention:
+Implementing secure practices like enforcing SSL encryption for data transmission and using parameterized 
+queries to prevent SQL injection can mitigate information disclosure vulnerabilities. By ensuring that 
+sensitive data is transmitted and handled securely, the likelihood of unauthorized access or exposure is 
+reduced significantly.
+
+CIA Property Violation:
+Tampering violates the integrity aspect of the CIA triad. Integrity ensures that data remains accurate and 
+unaltered. Tampering compromises data integrity by unauthorized modifications, leading to potential 
+data corruption or unauthorized access. Secure coding practices and mechanisms help uphold data integrity 
+and prevent tampering.
+
+Additional Security Mechanisms:
+To enhance security, additional measures such as input validation, access control, and security headers 
+can be incorporated. Input validation and sanitization help prevent various vulnerabilities, while access 
+control ensures that users only access authorized resources. Security headers like CSP and HSTS provide 
+additional layers of protection against common web-based attacks. Regular security audits and penetration 
+testing further bolster the application's security posture by identifying and addressing 
+vulnerabilities proactively.
